@@ -1,12 +1,55 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<清泽招新>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>清泽招新</title>
-</head>
+<meta http-equiv="Content-Type" Content="text/html; charset=utf-8">
+<title>清泽心语招新</title>
+<style>
+span{color:rgb(11,80,56);
+font-size:20px;
+text-align:center;
+}
+</style>
 <body>
-<form  method="post" action="save.php">
-<label for="myName">姓名：</label>
- <input type="text" value=" " name="myName " />
- <input type="submit" value="提交" name="submitBtn" />
+<form method="post" action="sava.hph">
+<label>姓名：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+<input type="text" value=" " name="myName"/>
+<input type="submit" value="提交" name="submitBtn"/><br/>
+<lable>专业名称：</label>
+<input type="text" value=" " name="major"/>
+<input type="submit" value="提交" name="submitBtn"/><br/>
+<lable>电话号码：</lable>
+<input type="text" value=" " name="telephone"/>
+<input type="submit" value="提交" name="submitBtn"/><br/>
+<lable>邮箱地址：</lable>
+<input type="text" value=" " name="email"/>
+<input type="submit" value="提交" name="submitBtn"/><br/>
+</form>
+<span><lable>意向部门</lable></span>
+<select style="width:150px;height:30px;">
+<option>综合办公室</option>
+<option>公关策划部</option>
+<option>网络安全部（蓝之青）</option>
+<option>视觉设计部（卡乐房）</option>
+<option>综合媒体集团</option>
+<option>新闻集团</option>
+<option>技术开发部</option>
+<option>微效坊</option>
+<option>微影视</option>
+<option>电视台</option>
+</select>
+<form action="save.php" method="post" >
+<lable>性别</lable><br/>
+<lable>小哥哥</lable>
+<input type="radio" value="1" name="gender" /><br/>
+<label>小姐姐</lable>
+<input type="radio" value="2" name="gender" /><br/>
+<input type="submit" value="提交" name="submitBtn" />
+</form>
+<form action="save.php" method="post" >
+<lable>个人简介：</lable>
+<textarea cols="50" rows="10">在这里输入内容....</textarea>
+<input type="submit" value="提交" name="submitBtn" />
+<input type="reset" value="重置" name="reset" />
+</from>
+</body>
+</htlm>
