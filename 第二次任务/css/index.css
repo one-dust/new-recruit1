@@ -1,0 +1,102 @@
+.background{
+    background: url("../images/picture-7.png");
+    position: absolute;
+    height: 1080px;
+    width: 1920px;
+}
+
+.public-container {
+    position: absolute;
+    margin-top:26px;
+    margin-left: 186px; 
+}
+.title{
+    width:476px;
+    height:56px;
+    position:absolute;
+    margin-top:96px;
+    margin-left:294px;
+}
+.ballon-right{
+    width:286px;
+    height:326px;
+    position:absolute;
+    margin-top:254px;
+    margin-left:1510px;
+}
+.box{
+    width:925px;
+    height:662px;
+    position:absolute;
+    margin-top:186px;
+    margin-left:512px;
+    background: url(../images/picture-5.png)
+}
+.name{
+    position:absolute;
+    margin-top:93px;
+    margin-left:62px;
+}
+.sex{
+    position:absolute;
+    margin-top:90px;
+    margin-left:320px;
+}
+.major{
+    position:absolute;
+    margin-top: 164px;
+    margin-left: 63px;
+}
+input
+{height:40px;
+    width: 152px;
+    border:2px solid;
+    border-radius:25px;
+}
+.one{
+    position:absolute;
+    margin-top:164px;
+    margin-left:320px;
+}
+.tel{
+    position1:absolute;
+    margin-top:248px;
+    margin-left:63px;
+}
+.will{
+    position:absolute;
+    margin-top:30px;
+    margin-left:63px;
+}
+.photo{
+    position: absolute;
+    margin-top: -204px;
+    margin-left: 648px;
+}
+.want{
+    position:absolute;
+    margin-top:32px;
+    margin-left:500px;
+}
+.reason{
+    width:780px;
+    height:111px;
+    position:absolute;
+    margin-top:150px;
+    margin-left:120px; 
+}
+.photo1{
+    posit1ion:absolute;
+    margin-top: 280px;
+    margin-left: 373px;
+}
+.dust{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 300px;
+}
+.ban{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -50px;
+}
